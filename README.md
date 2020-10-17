@@ -1,4 +1,4 @@
-# nodeApi
+# API Node - Autorizador Mock
 
 API Autorização, mock para projeto fiapcreditcard
 
