@@ -9,8 +9,9 @@ app.use(bodyParser.raw());
 
 app.post('/autorizar', (req, res) => {
     console.log('Got body:', req.body);
-    res.json({ return: 'Transaction Accepted.' })
-    res.sendStatus(200);
+    res.status(202).send({
+       title: 'Transaction Accepted.' 
+    });
 })
 
 
